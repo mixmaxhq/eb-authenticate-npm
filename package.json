@@ -1,0 +1,30 @@
+{
+  "name": "eb-authenticate-npm",
+  "version": "1.0.0",
+  "description": "Authenticates Elastic Beanstalk environments to npm.",
+  "scripts": {
+    "install": "install-files source",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mixmaxhq/eb-authenticate-npm.git"
+  },
+  "keywords": [
+    "eb",
+    "elastic",
+    "beanstalk",
+    "authentication",
+    "ebextensions",
+    "ebextension"
+  ],
+  "author": "Jeff Wear <jeff@mixmax.com> (https://mixmax.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mixmaxhq/eb-authenticate-npm/issues"
+  },
+  "homepage": "https://github.com/mixmaxhq/eb-authenticate-npm#readme",
+  "dependencies": {
+    "install-files": "^1.0.0"
+  }
+}
