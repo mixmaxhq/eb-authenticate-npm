@@ -8,6 +8,10 @@ The config file will do this by creating an `.npmrc` that reads the value of the
 EB, letting you use whatever authentication strategy you like locally. ([The
 alternative.][check in .npmrc])
 
+By the way I was really hoping that EB would automatically read `NPM_TOKEN` as
+per [this Stack Overflow answer][wrong answer] but that didn't work for me
+(tested 8/3/2016).
+
 ## Installation
 
 1. `npm install eb-authenticate-npm --save`
@@ -36,3 +40,4 @@ to be written.
 [SO]: http://stackoverflow.com/a/24993093/495611
 [this strategy]: https://remysharp.com/2015/10/26/using-travis-with-private-npm-deps#dynamic
 [token]: https://docs.npmjs.com/private-modules/ci-server-config#getting-an-authentication-token
+[wrong answer]: http://stackoverflow.com/a/37866227/495611
