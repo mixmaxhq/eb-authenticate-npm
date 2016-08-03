@@ -32,6 +32,7 @@ Thanks to Remy Sharp for [suggesting this strategy][this strategy], and [this
 Stack Overflow answer][SO] for helping me figure out where the `.npmrc` needed
 to be written.
 
-[this strategy]: https://remysharp.com/2015/10/26/using-travis-with-private-npm-deps#dynamic
+[check in .npmrc]: https://remysharp.com/2015/10/26/using-travis-with-private-npm-deps#file-based
 [SO]: http://stackoverflow.com/a/24993093/495611
+[this strategy]: https://remysharp.com/2015/10/26/using-travis-with-private-npm-deps#dynamic
 [token]: https://docs.npmjs.com/private-modules/ci-server-config#getting-an-authentication-token
