@@ -14,7 +14,7 @@ per [this Stack Overflow answer][wrong answer] but that didn't work for me
 
 ## Installation
 
-1. `yarn add eb-authenticate-npm -D` or `npm install eb-authenticate-npm --save-dev` (see [here](https://github.com/mixmaxhq/install-files/blob/master/README.md#installation) for why `--save-dev`)
+1. `npm install eb-authenticate-npm --save-dev` (see [here](https://github.com/mixmaxhq/install-files/blob/master/README.md#installation) for why `--save-dev`)
 2. Commit the `.ebextensions` file it creates.
 3. Set the `NPM_TOKEN` EB environment variable to an npm [authentication token][token].
 4. Deploy.
