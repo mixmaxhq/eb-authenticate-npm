@@ -1,6 +1,6 @@
 {
   "name": "eb-authenticate-npm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Authenticates Elastic Beanstalk environments to npm.",
   "scripts": {
     "install": "install-files source",
